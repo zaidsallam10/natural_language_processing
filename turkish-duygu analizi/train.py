@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.svm import SVC
-from lazypredict.Supervised import LazyClassifier
+# from lazypredict.Supervised import LazyClassifier
 import pickle
 
 X,y=(generateData())

@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 def predict_sentiment(sentence):
     try:
-        loaded_model = pickle.load(open('/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/turkce_sentiment_analysis.sav', 'rb'))
+        loaded_model = pickle.load(open('/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-duygu analizi/turkce_sentiment_analysis.sav', 'rb'))
         print(loaded_model.predict(['lakin beklediğim kadar değil, sağ tuşta biraz zorlanmakla beraber alınıp kullanılabilir']))
         print(loaded_model.predict(['çok kötü']))
         print(loaded_model.predict(['guzel']))

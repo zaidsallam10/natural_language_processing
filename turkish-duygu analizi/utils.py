@@ -7,8 +7,7 @@ import pandas as pd
 class CleanerPipeline():
     file_name=None
     data=None
-    stop_wods_frame=pd.DataFrame(pd.read_csv('/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/turkce-stop-words.csv'))
-
+    stop_wods_frame=pd.DataFrame(pd.read_csv('/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-duygu analizi/datasets/turkce-stop-words.csv'))
     def __init__(self):
         print('Hello Cleaner world')        
         

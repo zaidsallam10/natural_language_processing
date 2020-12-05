@@ -20,11 +20,11 @@ def callPipeline(filepath):
 
 def generateData():
     files=[
-    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/olumlu.csv',
-    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/olumsuz.csv',
-    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/train.csv',
-    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/mixed.csv',
-    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/sentiment_analysis.csv'
+    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-duygu analizi/datasets/olumlu.csv',
+    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-duygu analizi/datasets/olumsuz.csv',
+    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-duygu analizi/datasets/train.csv',
+    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-duygu analizi/datasets/mixed.csv',
+    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-duygu analizi/datasets/sentiment_analysis.csv'
     ]
     Xs=[]
     Ys=[]
