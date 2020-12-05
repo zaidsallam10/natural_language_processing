@@ -23,7 +23,8 @@ def generateData():
     '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/olumlu.csv',
     '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/olumsuz.csv',
     '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/train.csv',
-    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/mixed.csv'
+    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/mixed.csv',
+    '/home/xina/Desktop/Zaidar/Zaid-NLP/turkish-sentiment-analysis/datasets/sentiment_analysis.csv'
     ]
     Xs=[]
     Ys=[]
