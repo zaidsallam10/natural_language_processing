@@ -1,4 +1,4 @@
-# Türkçe sentiment Analizi
+# Türkçe Duygu Analizi
 ## Steps
 * Remove stop words
 * Remove puncation
@@ -11,4 +11,4 @@
 * Prediction
 * Deployment
 
-## Zaid Sallam
+## Zaidar Sallam
