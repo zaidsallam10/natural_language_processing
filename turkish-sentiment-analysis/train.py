@@ -9,14 +9,26 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.svm import SVC
+from lazypredict.Supervised import LazyClassifier
+import pickle
 
 X,y=(generateData())
 
-X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.35, random_state=42,shuffle=True)
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.35, random_state=0,shuffle=True)
+
+
+
 print(len(X_train))
 print(len(X_test))
 print(len(y_train))
 print(len(y_test))
+
+
+# clf = LazyClassifier(verbose=0,ignore_warnings=True, custom_metric=None)
+# models,predictions = clf.fit(X_train, X_test, y_train, y_test)
+# print(models)
+
+
 
 
 model = Pipeline([
@@ -39,7 +51,17 @@ confusion = confusion_matrix(y_test, y_hat)
 print(confusion)
 
 
+
 print(classification_report(y_test, y_hat, target_names=['0', '1']))
+
+try:
+    filename = 'turkce_sentiment_analysis.sav'
+    pickle.dump(model, open(filename, 'wb'))
+    print("model has been saved...")
+except:
+    print("Error in saving")
+
+
 
 
 
